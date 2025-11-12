@@ -3,6 +3,7 @@ create table student
 rn int primary key,
 snm char(20),
 marks int
+class int
 );
 
 insert into student values(101,'abc',77);
